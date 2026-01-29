@@ -107,7 +107,7 @@
             "expected_log_lines": [],
             "_comment_expected_log_lines": "Optional. List of log lines to validate. Each entry should have an 'operator' (eq or regex) and 'value' (string or regex pattern). Example: [{'operator': 'eq', 'value': 'Python version: 3.11'}, {'operator': 'regex', 'value': 'Python version: \\d+\\.\\d+'}]. If not provided, only log attachment will be performed."
         },
-        "validate_reachability": false,
+        "validate_reachability": true,
         "reachability": {
       "check_reachability_status": true,
       "_comment_check_reachability_status": "Verify that reachability analysis was performed",
